@@ -3,27 +3,9 @@
 	<b>A highly customisable, open source server software for Minecraft: Bedrock Edition written in PHP</b>
 </p>
 
-[![Build Status](https://travis-ci.org/pmmp/PocketMine-MP.svg?branch=master)](https://travis-ci.org/pmmp/PocketMine-MP)
+This core is designed for creating various game maps. There are many tools available for this purpose. It also contains all the blocks (almost) from Minecraft: Bedrock Edition. The core is based on PocketMine-MP 4.0
 
-## Getting started
-- [Documentation](http://pmmp.readthedocs.org/)
-- [Installation instructions](https://pmmp.readthedocs.io/en/rtfd/installation.html)
-- [Docker image](https://hub.docker.com/r/pmmp/pocketmine-mp)
-- [Plugin repository](https://poggit.pmmp.io/plugins)
-
-## Discussion/Help
-- [Forums](https://forums.pmmp.io/)
-- [Discord](https://discord.gg/bmSAZBG)
-- [StackOverflow](https://stackoverflow.com/tags/pocketmine)
-
-## For developers
- * [Building and running from source](BUILDING.md)
- * [Latest API documentation](https://jenkins.pmmp.io/job/PocketMine-MP-doc/doxygen/) - Doxygen documentation generated from development
- * [DevTools](https://github.com/pmmp/PocketMine-DevTools/) - Development tools plugin for creating plugins
- * [ExamplePlugin](https://github.com/pmmp/ExamplePlugin/) - Example plugin demonstrating some basic API features
- * [Contributing Guidelines](CONTRIBUTING.md)
-
-## Donate
+## Donate PocketMine-MP
 - Bitcoin Cash (BCH): `qq3r46hn6ljnhnqnfwxt5pg3g447eq9jhvw5ddfear`
 - Bitcoin (BTC): `171u8K9e4FtU6j3e5sqNoxKUgEw9qWQdRV`
 - Stellar Lumens (XLM): `GAAC5WZ33HCTE3BFJFZJXONMEIBNHFLBXM2HJVAZHXXPYA3HP5XPPS7T`
