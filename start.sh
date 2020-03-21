@@ -32,11 +32,13 @@ if [ "$PHP_BINARY" == "" ]; then
 fi
 
 if [ "$POCKETMINE_FILE" == "" ]; then
-	if [ -f ./PocketMine-MP.phar ]; then
-		POCKETMINE_FILE="./PocketMine-MP.phar"
+	if [ -f ./BuildUnixCore.phar ]; then
+		POCKETMINE_FILE="./BuildUnixCore.phar"
+	elif [ -f ./src/PocketMine.php ]; then
+		POCKETMINE_FILE="./src/PocketMine.php"
 	else
-		echo "PocketMine-MP.phar not found"
-		echo "Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases"
+		echo "BuildUnixCore.phar not found"
+		echo "Downloads can be found at https://github.com/saehing/BuildUnixCore/releases"
 		exit 1
 	fi
 fi
